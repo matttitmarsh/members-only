@@ -18,15 +18,25 @@
   margin: 0;
  }
 
+.centered-container {
+  width: 40%;
+  margin: 0 auto;
+}
+
  .nav-bar {
   display: flex;
-  height: 4rem;
+  min-height: 100%;
   background: hsl(207, 69%, 38%);
+  flex-wrap: wrap;
+ }
+
+ .nav-right {
+  margin-left: auto;
  }
 
  .nav-button {
   display: inline-flex;
-  height: 100%;
+  min-height: 3rem;
   justify-content: center;
   align-items: center;
   padding-left: 1rem;
@@ -43,6 +53,16 @@
   background: hsl(213, 49%, 48%);
  }
 
- .nav-right {
-  margin-left: auto;
- }
+ .form-text-area {
+  width: 100%;
+}
+
+@media all and (max-width: 600px) {
+  .post-feed {
+    width: 100%;
+  }
+
+  .nav-button {
+    flex-basis: 100%;
+  }
+}
