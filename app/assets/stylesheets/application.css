@@ -19,7 +19,7 @@
  }
 
 .centered-container {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -53,15 +53,8 @@
   background: hsl(213, 49%, 48%);
  }
 
- .form-text-area {
-  width: 100%;
-}
 
 @media all and (max-width: 600px) {
-  .post-feed {
-    width: 100%;
-  }
-
   .nav-button {
     flex-basis: 100%;
   }
